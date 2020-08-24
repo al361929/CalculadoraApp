@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CalculadoraApp';
+  resPadre:number;
+
+  onSumaRealizada(resultado:number){
+    this.resPadre = resultado;
+  }
 }
